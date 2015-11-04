@@ -36,7 +36,6 @@ public class TestMain {
 			glEnable(GL_BLEND);
 			glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
 			
-			//HashMap<Dimension,Tile> map = new HashMap<Dimension,Tile>();
 						
 			ArrayList<Tile> t = new ArrayList<Tile>();
 			for (int i=5;i<10;i++)
@@ -62,6 +61,7 @@ public class TestMain {
 				Map.update();				
 				
 				Display.update();
+				
 			}
 			
 			Display.destroy();
